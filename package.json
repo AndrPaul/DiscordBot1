@@ -1,0 +1,23 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.5",
+    "table": "^5.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
